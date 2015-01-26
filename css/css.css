@@ -1,0 +1,23 @@
+textarea {
+	height: 300px;
+	width: 200px;
+}
+
+.usersession {
+
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+ul, li {
+	list-style-type: none;
+}
+.inviter {
+	padding: 5px;
+	background-color: #C3C3C3;
+	border: thin solid #9B9B9B;
+	color: #F4F4F4;
+}
+input.text{
+	width: 161px;
+}
