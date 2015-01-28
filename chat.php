@@ -25,14 +25,10 @@ include('controller/select.php');
 	<span class="inviter"><?php echo $login_selected; ?></span>
 </p>
 <p>
-	<textarea id="conversationPanel">
-
-
-	
-	</textarea>
+	<textarea id="conversationPanel"></textarea>
 <br>
-	<input class="text" type="text" placeholder="Write your message here!"/>
-	<a href="#">Send</a>
+	<input id="txtMessage" class="text" type="text" placeholder="Write your message here!"/>
+	<a href="#" id="btnSend">Send</a>
 </p>
 
 <!-- Scripts -->

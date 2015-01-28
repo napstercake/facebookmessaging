@@ -2,13 +2,19 @@
 
 require('config/dbconnection.php');
 
-$user_conversation_to=$_GET['id'];
+$user_conversation_to = $_GET['id'];
 
-$ses_sql=mysql_query("select * from users where id='$user_conversation_to'", $CONNECTION);
+$query_user_selected = "select * from users where id='$user_conversation_to'";
+$result = mysqli_query($db, $query_user_selected);
 
-while ($row = mysql_fetch_assoc($ses_sql)) {
-    $login_selected = $row["username"];
-    $id_selected = $row["id"];
-}
+
+	while ($row = $result->fetch_assoc()) {
+
+		$login_selected = $row["username"];
+    	$id_selected = $row["id"];
+		
+	}
+	
+
 
 ?>

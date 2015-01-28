@@ -1,6 +1,6 @@
 <?php
-include('controller/session.php');
-?>
+ob_start();
+require('controller/session.php');?>
 <!DOCTYPE html>
 <HTML>
 
@@ -24,9 +24,10 @@ include('controller/session.php');
 <p>
 	<ul>
 	<?php
-		$result = mysql_query("select * from users", $CONNECTION);
-
-		while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+		$all_user = "select * from users";
+		$result = mysqli_query($db, $all_user);
+		
+		while ($row = $result->fetch_assoc()) {
 	?>
 			<li><a href="chat.php?id=<?php echo $row['id']; ?>"><?php echo $row["username"]; ?> <img src="images/chat.png"/></a></li>
 	<?php
