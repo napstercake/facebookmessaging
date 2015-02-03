@@ -20,15 +20,26 @@ include('controller/select.php');
 </div>
 
 
-<h1>Invite chat</h1>
+<h1>Chat</h1>
 <p>
-	<span class="inviter"><?php echo $login_selected; ?></span>
+	<span class="inviter"><?php echo $user_selected; ?></span>
 </p>
 <p>
 	<textarea id="conversationPanel"></textarea>
 <br>
-	<input id="txtMessage" class="text" type="text" placeholder="Write your message here!"/>
-	<a href="#" id="btnSend">Send</a>
+	<form action="post">
+
+		<input id="txtMessage" name="reply" class="text" type="text" placeholder="Write your message here!"/>
+		<input id="btnSend" type="submit" value="submit" name="submit">
+
+		<!-- <a href="#" id="btnSend">Send</a> -->
+
+		<input id="txtUserSession" name="idsession" type="hidden" value="<?php echo $id_session; ?>">
+		<input id="txtUserTwo" type="hidden" value="<?php echo $id_selected ?>">
+		<input id="txtConversationId" name="cid" type="hidden" value="<?php echo $conversation_id ?>">
+		
+	</form>
+	
 </p>
 
 <!-- Scripts -->

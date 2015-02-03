@@ -15,7 +15,8 @@ require('controller/session.php');?>
 <BODY>
 
 <div class="usersession">
-	<?php echo $login_session; ?> <b id="logout"><a href="logout.php"> [x]</a></b>	
+	<?php echo $login_session; ?> <b id="logout"><a href="logout.php"> [x]</a></b>
+	<input type="hidden" id="$txtUserSession" value="<?php echo $id_session; ?>">	
 </div>
 
 
@@ -29,12 +30,21 @@ require('controller/session.php');?>
 		
 		while ($row = $result->fetch_assoc()) {
 	?>
-			<li><a href="chat.php?id=<?php echo $row['id']; ?>"><?php echo $row["username"]; ?> <img src="images/chat.png"/></a></li>
+			<li>
+				<a href="chat.php?user_two=<?php echo $row['id']; ?>&user_session=<?php echo $id_session; ?>">
+					<?php echo $row["username"]; ?> 
+					<img src="images/chat.png"/>
+				</a>
+			</li>
 	<?php
 		}
 	?>
 	</ul>	
 
+</p>
+<hr/>
+<p>
+	<a href="myconversations.php"><img src="images/chat.png">All conversations </a>
 </p>
 
 <!-- Scripts -->

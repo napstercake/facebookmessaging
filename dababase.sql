@@ -3,7 +3,7 @@ CREATE DATABASE fbmessaging;
 CREATE TABLE users (
 	id int NOT NULL PRIMARY KEY AUTO_INCREMENT ,
 	username varchar(25) NOT NULL UNIQUE,
-	password varchar(50) NOT NULL ,
+	password varchar(50) NOT NULL,
 	email varchar(100) NOT NULL 
 );
 

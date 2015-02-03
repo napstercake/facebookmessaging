@@ -3,34 +3,6 @@
 	{
 		"selected_items":
 		[
-			[
-				"user",
-				"username"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"wi",
-				"width"
-			],
-			[
-				"in",
-				"input"
-			],
-			[
-				"ac",
-				"action	Attr"
-			],
-			[
-				"fo",
-				"form	Tag"
-			],
-			[
-				"id",
-				"id"
-			]
 		]
 	},
 	"buffers":
@@ -63,33 +35,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/config",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/controller",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/js"
+		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging"
 	],
 	"file_history":
 	[
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/js/functions.js",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/config/dbconnection.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/index.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/controller/login.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/main.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/chat.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/controller/select.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/controller/session.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/config/dbparameters.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/controller/message.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/dababase.sql",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/css/css.css",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/logout.php",
-		"/Users/ricardogonzales/Documents/FileZilla.xml",
-		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/js/jquery-1.11.2.min.js",
-		"/Users/ricardogonzales/Downloads/jquery-1.11.2.min.js"
+		"/Applications/XAMPP/xamppfiles/htdocs/github/facebookmessaging/index.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 0.0
 	},
 	"find_in_files":
 	{
@@ -132,11 +86,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 0.0
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -158,7 +112,7 @@
 		"cols":
 		[
 			0.0,
-			0.568757414867,
+			0.481132075472,
 			1.0
 		],
 		"rows":
@@ -175,7 +129,7 @@
 	"project": "facebookmessaging.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 0.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -202,7 +156,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -210,7 +164,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 166.0,
+	"side_bar_width": 157.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
